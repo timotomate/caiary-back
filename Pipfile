@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+djangorestframework = "*"
+djangorestframework-simplejwt = "*"
+django-dotenv = "*"
+gunicorn = "*"
+requests = "*"
+whitenoise = "*"
+psycopg2 = "*"
+dj-database-url = "*"
+tzdata = "*"
+drf-yasg = "*"
+pillow = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
